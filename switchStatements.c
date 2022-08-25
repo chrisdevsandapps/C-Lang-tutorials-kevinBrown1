@@ -4,9 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-
 void function1(int input) {
-
     switch (input) {
         case 1:
             printf("this is case 1\n");
@@ -34,13 +32,13 @@ function2() {
             case 'I':
             case 'O':
             case 'U':   vowel++;
-
         }
     }
     printf("a: %d, vowels: %d\n", a, vowel);
 
 }
 
+// #######################
 int main() {
     function1(1);
     function1(2);
@@ -49,3 +47,5 @@ int main() {
     function2();
     return 0;
 }
+// #######################
+

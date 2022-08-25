@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 
-
 void func1(int input) {
     if(input == 1) {
         printf("printing this if true\n");
@@ -50,3 +49,6 @@ int main() {
 
     return 0;
 }
+
+
+

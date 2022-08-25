@@ -15,18 +15,21 @@ void func2() {
     scanf("%c", &xxx);
     printf("the char is: %c\n", xxx);   
 }
+
 void func3() {
     float xxx = 0;
     printf("Enter a float: ");
     scanf("%f", &xxx);
     printf("the float is: %f\n", xxx);   
 }
+
 void func4() {
     double xxx = 0;
     printf("Enter a double: ");
     scanf("%lf", &xxx);
     printf("the double is: %f\n", xxx);   
 }
+
 void func5() {
     int n1, n2, n3;
     n1 = n2 = n3 = 0;
@@ -34,6 +37,7 @@ void func5() {
     scanf("%d %d %d", &n1, &n2, &n3);
     printf("sum is: %d\n", n1 + n2 + n3);
 }
+
 void func6() {
    char str[50] = "this is a string\n";
    printf("Enter a string: \t\t");
@@ -44,6 +48,7 @@ void func6() {
 
 }
 
+// ######################################
 int main() {
 
     // func1();
@@ -55,4 +60,22 @@ int main() {
 
     return 0;
 }
+// ######################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
